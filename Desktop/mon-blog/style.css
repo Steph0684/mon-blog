@@ -1,0 +1,88 @@
+
+* /*toutes les balises sans exception*/
+	{
+	font-size: 1em; /* taille de fonte utilisée pour le texte*/
+	font-family : Times New Roman, serif; /* police Times New Roman - Serif sélectionne la police par défaut*/
+	text-align: justify; /* alignement du texte - ici il prend toute la largeur de la page */
+	background-color:silver; /*définit la couleur de fond, de la page entière ici : gris*/
+	}
+
+	
+.salutations /*class du mot "premier"*/
+	{
+	color : blue; /*seul le mot "premier" esr en bleu*/
+	}
+	
+nav /*bloc de liens de navigation*/
+	{
+	border:1px black solid; /*bordures noires solides en 1px*/
+	text-align:left;/*texte aligné à gauche de la page*/
+	padding: 12px; /*Marge intérieure de 12px*/
+	}
+	
+h1, h2, h3 /* La virgule permet d'identifier plusieurs balises d'un coup */
+	{
+	color:black; /*couleur du texte noire*/
+	font-size : 1.2em; /*taille du texte/*
+	font-family : Arial, serif;
+	font-style : italic;
+	font-weight : bold; /*en gras*/
+	background-color: rgba(255, 0, 0, 0.5); /* opacité du texte et Fond rouge à moitié transparent */
+	border:1px black solid; /*tous les titres avec bordures noires solides en 1px*/
+	}
+	
+em 						/* em cible tous les textes importants */
+	{
+	color:green; /*texte en vert*/
+	text-decoration: underline; /*texte souligné*/
+	}
+
+.introduction 			/* Le . cible une class */
+	{
+	color:maroon; /*texte de la class introduction en marron*/
+	width: 350px; /* On a indiqué une largeur (obligatoire) */
+	margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 20px;
+	}
+
+.ma_photo 			
+	{
+	width: 150px; /* On a indiqué une largeur (obligatoire) */
+	margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+	}
+	
+.legende_photo
+	{
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+	clear:both
+	}
+	
+
+	
+		
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+	
+
+

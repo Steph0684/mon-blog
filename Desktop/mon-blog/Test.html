@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css"/>
+		<title>Stéphanie MEUNIER</title> <!--titre onglet-->		
+	</head>
+	
+	<body>
+		<div id"bloc"> 
+		<header> <!--Balise en-tête-->
+			<div id="mon_titre_principal">						
+				<h1>Mon <span class="salutations">premier</span> site Web</h1> <!-- LA BALISE UNIVERSELLE Inline : SPAN pour cibler un seul mot d'1 phrase -->
+				<p>Allez, je me lance ! Je vais essayer d'éviter le...<img class="bugs" src="Images/bugs.jpg" alt="Photo Bug"</p>
+			</div>
+			
+					<!-- LIENS VERS DES ANCRES -->
+			<nav> <!-- Balise pour bloc de navigation -->	
+				<ul class="menu">
+					<li><a href="#etat_civil">Mon état civil</a></li>
+					<li><a href="#ma_fratrie">Ma famille</a></li>
+					<li><a href="#ma_vie_professionnelle">Ma vie professionnelle</a></li>
+					<li><a href="#ma_vie_de_famille">Ma vie de famille</a></li>
+					<li><a href="#ce_que_j_aime_faire">Ce que j'aime faire</a></li>
+					<li><a href="#en_savoir_plus">En savoir plus</a></li>
+					<li><a href="#me_contacter">Me contacter</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div id="banniere">
+			<h1>Me voilà</h1>
+				<figure> <!--INSERTION D'UNE IMAGE AVEC LEGENDE-->
+				<img class="ma-photo" src="images/tn_photo_en_tete.png" alt="photo profil"/></h2>
+				<figcaption>
+				<p class="legende_photo"><em>Vous souhaitez voir l'image dans sa taille d'origine ?</em><a href="Images/photo_en_tete.png"><img src="Images/tn_photo_en_tete.jpg" title="Cliquez pour agrandir"/></a></p> <!-- PROPOSER TAILLE ORIGINE DE L'IMAGE -->
+				</figcaption>
+				</figure>										
+		</div>
+			
+						<!-- IDENTIFICATION DES ANCRES -->
+			
+		<section>
+			<h1 id="etat_civil">Mon état civil</h1>
+		
+						<!-- LIENS VERS PAGES EXTERNES A MON SITE -->								
+			
+			<p class="introduction"> <!-- L'attribut CLASS -->Je m'appelle <strong>Stéphanie MEUNIER</strong>, je suis née le 18 juin 1984 à <a href="https://www.villeneuve-saint-georges.fr/">Villeneuve St Georges</a> dans le département du
+			
+						<!-- Ouverture d'un lien dans une autre fenêtre ou un autre onglet avec target -->
+			<a href="https://www.valdemarne.fr/" target="blank">Val de Marne</a></br></p>
+		</section>
+			
+		<section>
+			<h1 id="ma_fratrie">Ma fratrie</h1>
+			<p>J'ai 5 soeurs et 2 frères, du plus grand au plus petit ci-après :
+			
+						<!-- LISTE A PUCES NON ORDONNEES-->
+						
+			<ul>
+				<li>Nadège</li>
+				<li>Karin</li>
+				<li>Jenny (ma soeur jumelle)</li>
+				<li>Tommy</li>
+				<li>Damien</li>
+				<li>Lena et Lorine (jumelles elles aussi)</li>
+			</ul>
+				
+						<!-- MISE EN VALEUR DU TEXTE EN ITALIQUE avec em -->
+						
+			<p>Mes parents sont <em>Florence</em> et <em>Patrick</em></p>
+		</section>
+			
+		<section>
+			<h1 id="ma_vie_professionnelle">Ma vie Professionnelle</h1>
+		
+			<p> J'ai commencé à travailler lorsque j'ai eu 16 ans, dans différents secteurs d'activité :
+			
+						<!-- LISTE A PUCES ORDONNEES-->
+						
+			<ol>
+				<li>La vente (sur les marchés)</li>
+				<li>La garde d'enfants</li>
+				<li>La restauration</li>
+				<li>La grande distribution</li>
+			</ol>	
+			</p>
+					
+		<p>Puis, après mon Baccalauréat professionnel, je suis allée en Fac de sociologie, pour vite réaliser que ça ne me correspondait pas DU TOUT :-)
+		Je me suis dirigée vers le métier de commerciale en travaillant pendant 8 ans pour la société Lememo.com, un annuaire professionnel en ligne, qui n'existe malheureusement plus aujourd'hui. J'y ai appris plein de choses, comme le management d'une équipe de 10 commerciaux, la gestion de projets internes et externes aux différents services.</p>
+		</section>
+		
+		<section>
+			<h1 id="ma_vie_de_famille">Ma vie de famille</h1>
+		
+			<p>Je vis avec mon conjoint Cyril, ma fille Lina et mon fils Abel. Nous habitons dans une petite ville proche de Sète, à Gigean</p>
+		
+			<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</p>
+		</section>
+		
+		<section>
+			<h1 id="ce_que_j_aime_faire">Ce que j'aime faire</h1> <!-- titre affiché en rose dans CSS -->
+			<ul>
+				<p><li>La lecture ! Autant les romans policiers, que la fantaisie ou encore le fantastique ! J'aime la lecture pour ce qu'elle m'apporte, tant d'un point de vue intellectuel que moral, elle m'apaise. Et petit + et pas des moindres : elle m'aide à garder une orthographe quasi irréprochable ;-) D'ailleurs je crois bien que ma fille a hérité de mon goût pour ce passe-temps ! J'espère juste qu'elle saura toujours trouver le temps pour ne surtout pas perdre ce hobbie</br>
+			Par ailleurs, je vous conseille vivement la lecture de <a href="https://livre.fnac.com/a3506147/Jim-Fergus-Mille-femmes-blanches"target="blank">1000 femmes blanches de Jim Fergus</a>, un merveilleux ouvrage sur les conditions du peuple indien au 19ème siècle</p>
+				<p><li>Profiter du beau temps et du cadre magnifique dans lequel j'ai l'immense chance d'habiter !</li></p></br>
+				<li>Aller au cinéma : je tiens cela de mon père ! Lorsque nous étions enfants, et que nous allions passer un weekend chez lui, la 1ère chose qu'il faisait était de nous emmener au Vidéo club choisir nos films du weekend ! A 10 ans, nous avions déjà vu, entre autres : <a href="https://fr.wikipedia.org/wiki/Les_Princes_de_la_ville_(film)" target="blank">Les Princes de la ville</a>, tous les <a href="https://fr.wikipedia.org/wiki/Rocky">Rocky</a>, <a href="https://fr.wikipedia.org/wiki/Rambo" target="blank">Rambo</a> existants à cette époque.Une spéciale mention pour <a href="Images/willHunting.jpg" target="blank"><!-- LIEN DE TELECHARGEMENT FICHIER -->Will Hunting</a> que j'ai adoré, une vraie leçon de vie qui m'a beaucoup parlé à l'époque !</li>
+			</ul>
+		</section>
+					
+		<section>
+			<h1 id="en_savoir_plus">En savoir plus</h1>
+		
+			<p><a href="https://www.linkedin.com/in/st%C3%A9phanie-meunier-068b9613b/" target="blank">Mon profil Linkedin</a></p>
+			
+							<!-- LIEN VERS UNE AUTRE PAGE DE MON SITE -->
+						
+			<p><a href="page1.html" target="blank">Test lien vers autre page de mon site</a></p>
+		</section>
+		
+							<!-- LIENS DE CONTACT EMAIL ET TEL -->
+		<footer>
+			<h3 id="me_contacter">Me contacter</h3>		
+			<p><a href="mailto:stephy0684@hotmail.com">Par email</a></p>		
+			<p><a href="0000000000">Par téléphone</a></p>
+		</footer>
+	</div>
+	</body>
+</html>
